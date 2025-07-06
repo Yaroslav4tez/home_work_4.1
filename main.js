@@ -1,4 +1,4 @@
-let nam = prompt("ім'я користувача");
+const nam = prompt("ім'я користувача");
 
 if (nam && /^[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+$/.test(nam)) {
     alert(`Hello, ${nam}! How are you?`);
